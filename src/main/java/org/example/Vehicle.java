@@ -1,6 +1,11 @@
 package org.example;
 
 public class Vehicle {
+
+    //class variable (static variable)
+    static int totalVehicleCount;
+
+
     String name;
     double fuelLevel;
     double mileage;

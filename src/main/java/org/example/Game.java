@@ -1,8 +1,13 @@
 package org.example;
 
+import org.example.utils.ScannerUtils;
+
 import java.util.Scanner;
 
 public class Game {
+
+     ScannerUtils scannerUtils =new ScannerUtils();
+
     public void start(){
         System.out.println("Welcome to the Racing Game!");
 
@@ -10,11 +15,19 @@ public class Game {
 
         System.out.println("Player count:"+playerCount);
 
+        String vehicleName = getVehicleNameFromUser();
+        System.out.println("Vehicle name:"+vehicleName);
+
     }
 
     private int getPlayerCountFromUser(){
         System.out.println("Please enter number of players:");
-        Scanner scanner =new Scanner(System.in);
-        return scanner.nextInt();
+        return scannerUtils.nextIntAndMoveToNextLine();
+
+    }
+
+    private String getVehicleNameFromUser(){
+        System.out.println("Please enter vehicle name:");
+        return scannerUtils.nextLine();
     }
 }

@@ -11,6 +11,11 @@ public class App
         Game game =new Game();
         game.start();
 
+        Vehicle vehicle1 =new Vehicle();
+        vehicle1.name ="Dacia";
+        vehicle1.totalVehicleCount =1;
+
+
         Engine autoVehicleEngine =new Engine();
         autoVehicleEngine.manufacture ="VW";
 
