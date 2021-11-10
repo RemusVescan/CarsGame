@@ -6,6 +6,7 @@ public class Vehicle {
     static int totalVehicleCount;
 
 
+    //instance variables
     String name;
     double fuelLevel;
     double mileage;
@@ -15,7 +16,11 @@ public class Vehicle {
     boolean damaged;
     String color;
 
-    public double accelerate(double speed,double durationInHours){
+    public Vehicle() {
+        totalVehicleCount++;
+    }
+
+    public double accelerate(double speed, double durationInHours){
         if (fuelLevel<=0 || damaged ){
             System.out.println("You cannot accelerate.");
         }
