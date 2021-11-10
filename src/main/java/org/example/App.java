@@ -1,5 +1,9 @@
 package org.example;
 
+import org.example.vehicles.AutoVehicle;
+import org.example.vehicles.Car;
+import org.example.vehicles.Vehicle;
+
 /**
  * Hello world!
  *

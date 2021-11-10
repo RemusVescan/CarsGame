@@ -1,4 +1,6 @@
-package org.example;
+package org.example.vehicles;
+
+import org.example.Engine;
 
 public class AutoVehicle extends Vehicle {
 
