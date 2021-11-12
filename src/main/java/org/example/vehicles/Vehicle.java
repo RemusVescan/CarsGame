@@ -24,6 +24,13 @@ public class Vehicle {
         totalVehicleCount++;
     }
 
+    //method overloading
+    public double accelerate(double speed){
+        return accelerate(speed, 1);
+
+
+    }
+
     public double accelerate(double speed, double durationInHours){
         if (fuelLevel<=0 || damaged ){
             System.out.println("You cannot accelerate.");
@@ -59,6 +66,12 @@ public class Vehicle {
 
         return distance;
 
+    }
+
+    protected Vehicle reset(){
+        totalTravelDistance =0;
+        damaged =false;
+        return this;
     }
 
     public void setName(String name){
@@ -128,5 +141,19 @@ public class Vehicle {
     //read-only property
     public static int getTotalVehicleCount() {
         return totalVehicleCount;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "name='" + name + '\'' +
+                ", fuelLevel=" + fuelLevel +
+                ", mileage=" + mileage +
+                ", totalTravelDistance=" + totalTravelDistance +
+                ", maxSpeed=" + maxSpeed +
+                ", damaged=" + damaged +
+                ", color='" + color + '\'' +
+                ", manufacturingDate=" + manufacturingDate +
+                '}';
     }
 }
