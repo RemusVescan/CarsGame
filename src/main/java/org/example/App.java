@@ -5,13 +5,39 @@ import org.example.vehicles.Car;
 import org.example.vehicles.Vehicle;
 import org.example.vehicles.cheater.CheatingVehicle;
 
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
 /**
  * Hello world!
  */
 public class App {
     public static void main(String[] args) {
-        Game game = new Game();
-        game.start();
+//        Game game = new Game();
+//        game.start();
+
+//        Set<String> cities = new HashSet<>();
+//        cities.add("Cluj-Napoca");
+//        cities.add("Bucuresti");
+//
+//        Iterator<String> citiesIterator = cities.iterator();
+//
+//        for (int i = 0; i < cities.size(); i++) {
+//            String nextCity = citiesIterator.next();
+//            System.out.println(nextCity);
+//            System.out.println("Set size :"+cities.size());
+//
+//
+//        }
+//        while (citiesIterator.hasNext()){
+//            System.out.println(citiesIterator.next());
+//        }
+
+
+
+
+
 //        Vehicle cheatingVehicle = new CheatingVehicle();
 //        cheatingVehicle.setName("Cheater");
 //        cheatingVehicle.accelerate(60,1);
