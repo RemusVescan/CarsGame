@@ -5,9 +5,7 @@ import org.example.vehicles.Car;
 import org.example.vehicles.Vehicle;
 import org.example.vehicles.cheater.CheatingVehicle;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Hello world!
@@ -16,20 +14,35 @@ public class App {
     public static void main(String[] args) {
         Game game = new Game();
         game.start();
+//
+//        List<String> favoriteAuthors = new ArrayList<>();
+//        favoriteAuthors.add("Tolkin");
+//        favoriteAuthors.add("C.S Lewis");
+//        favoriteAuthors.add("Tolstoi");
+//        favoriteAuthors.add("Marquez");
+//
+//        boolean tolkienFavorite = favoriteAuthors.contains("Tolkien");
+//
+//        System.out.println(tolkienFavorite);
+//
+//        int[] integers = {1,2,3,4};
+//        List<Integer> integerList = Arrays.asList(10,20,30);
+//        int firstNumber = integerList.get(0);
+//
 
-        Set<String> cities = new HashSet<>();
-        cities.add("Cluj-Napoca");
-        cities.add("Bucuresti");
-
-        Iterator<String> citiesIterator = cities.iterator();
-
-        for (int i = 0; i < cities.size(); i++) {
-            String nextCity = citiesIterator.next();
-            System.out.println(nextCity);
-            System.out.println("Set size :" + cities.size());
-
-
-        }
+//        Set<String> cities = new HashSet<>();
+//        cities.add("Cluj-Napoca");
+//        cities.add("Bucuresti");
+//
+//        Iterator<String> citiesIterator = cities.iterator();
+//
+//        for (int i = 0; i < cities.size(); i++) {
+//            String nextCity = citiesIterator.next();
+//            System.out.println(nextCity);
+//            System.out.println("Set size :" + cities.size());
+//
+//
+//        }
 //        while (citiesIterator.hasNext()){
 //            System.out.println(citiesIterator.next());
 //        }
