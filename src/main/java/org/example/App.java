@@ -14,28 +14,25 @@ import java.util.Set;
  */
 public class App {
     public static void main(String[] args) {
-//        Game game = new Game();
-//        game.start();
+        Game game = new Game();
+        game.start();
 
-//        Set<String> cities = new HashSet<>();
-//        cities.add("Cluj-Napoca");
-//        cities.add("Bucuresti");
-//
-//        Iterator<String> citiesIterator = cities.iterator();
-//
-//        for (int i = 0; i < cities.size(); i++) {
-//            String nextCity = citiesIterator.next();
-//            System.out.println(nextCity);
-//            System.out.println("Set size :"+cities.size());
-//
-//
-//        }
+        Set<String> cities = new HashSet<>();
+        cities.add("Cluj-Napoca");
+        cities.add("Bucuresti");
+
+        Iterator<String> citiesIterator = cities.iterator();
+
+        for (int i = 0; i < cities.size(); i++) {
+            String nextCity = citiesIterator.next();
+            System.out.println(nextCity);
+            System.out.println("Set size :" + cities.size());
+
+
+        }
 //        while (citiesIterator.hasNext()){
 //            System.out.println(citiesIterator.next());
 //        }
-
-
-
 
 
 //        Vehicle cheatingVehicle = new CheatingVehicle();
@@ -142,5 +139,5 @@ public class App {
 //        System.out.println("Initial name for car1:"+ carReference.getName());
 //
 //
+        }
     }
-}
