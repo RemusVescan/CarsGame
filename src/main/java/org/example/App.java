@@ -14,6 +14,23 @@ public class App {
     public static void main(String[] args) {
         Game game = new Game();
         game.start();
+
+//        String userLanguage = "ro";
+//
+//        Map< String, String> descriptionTranslations = new HashMap<>();
+//        descriptionTranslations.put("en", "Some description");
+//        descriptionTranslations.put("ro", "O descriere");
+//        descriptionTranslations.put("ro", "O alta descriere");
+//
+//        descriptionTranslations.get(userLanguage);
+//
+//        System.out.println("Available translation");
+//        for(Map.Entry<String,String> entry : descriptionTranslations.entrySet()){
+//            System.out.println(entry.getKey() +":" + entry.getValue());
+//        }
+
+
+
 //
 //        List<String> favoriteAuthors = new ArrayList<>();
 //        favoriteAuthors.add("Tolkin");
