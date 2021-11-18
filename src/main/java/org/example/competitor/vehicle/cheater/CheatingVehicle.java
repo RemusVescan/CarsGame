@@ -1,6 +1,6 @@
-package org.example.vehicles.cheater;
+package org.example.competitor.vehicle.cheater;
 
-import org.example.vehicles.Vehicle;
+import org.example.competitor.vehicle.Vehicle;
 
 public class CheatingVehicle extends Vehicle {
 

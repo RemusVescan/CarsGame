@@ -1,4 +1,4 @@
-package org.example.vehicles;
+package org.example.competitor.vehicle;
 
 import java.time.LocalDate;
 

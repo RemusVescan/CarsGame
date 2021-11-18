@@ -1,14 +1,11 @@
 package org.example;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import com.sun.scenario.effect.impl.sw.java.JSWBlend_SRC_OUTPeer;
 import org.example.utils.ScannerUtils;
-import org.example.vehicles.Car;
-import org.example.vehicles.Vehicle;
+import org.example.competitor.vehicle.Car;
+import org.example.competitor.vehicle.Vehicle;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Game {
