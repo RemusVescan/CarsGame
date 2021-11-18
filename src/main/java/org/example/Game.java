@@ -3,6 +3,7 @@ package org.example;
 import com.sun.org.apache.bcel.internal.generic.NEW;
 import com.sun.scenario.effect.impl.sw.java.JSWBlend_SRC_OUTPeer;
 import org.example.utils.ScannerUtils;
+import org.example.vehicles.Car;
 import org.example.vehicles.Vehicle;
 
 import java.util.ArrayList;
@@ -80,7 +81,7 @@ public class Game {
 
         for (int i = 1; i <= playerCount; i++) {
             System.out.println("Preparing player" + i + "for the race");
-            Vehicle vehicle = new Vehicle();
+            Vehicle vehicle = new Car();
             vehicle.setName(getVehicleNameFromUser());
             vehicle.setFuelLevel(30);
             vehicle.setMaxSpeed(300);

@@ -2,7 +2,7 @@ package org.example.vehicles;
 
 import java.time.LocalDate;
 
-public class Vehicle {
+public abstract class Vehicle {
 
     //class variable (static variable)
    private   static int totalVehicleCount;
